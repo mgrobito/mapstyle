@@ -1,0 +1,17 @@
+{
+        version: 8,
+        name: "OSM",
+        metadata: { "maputnik:renderer": "mbgljs" },
+        sources: {
+          v7o23hh3j: {
+            type: "raster",
+            tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
+            minzoom: 0,
+            maxzoom: 19,
+          },
+        },
+        sprite: "",
+        glyphs: "https://api.baato.io/fonts/{fontstack}/{range}.pbf",
+        layers: [{ id: "TIles", type: "raster", source: "v7o23hh3j" }],
+        // id: "85d4pzjkt",
+      }
